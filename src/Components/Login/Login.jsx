@@ -10,17 +10,7 @@ const Login = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
    
-    const handleSubmit = (e) => {
-      e.preventDefault(); 
-      setError(""); 
-  
-      if (!email || !password) {
-        setError("Email and Password are required.");
-        return;
-      }
-  
-      console.log("Logging in with:", { email, password });
-    };
+   
   
   return (
     <>
