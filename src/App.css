@@ -1,0 +1,18 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.gridmain{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grids{
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 40px;
+}

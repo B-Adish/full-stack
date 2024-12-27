@@ -1,0 +1,81 @@
+.props-pro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    box-shadow: 10px 10px 10px #7D7D7D;
+}
+.props-pro img{
+    width: 100%;
+    height: 85%;
+}
+.props-pro .icons-props{
+    width: 53%;
+    height: 70px;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+    left: 70px;
+    visibility: hidden;
+    display: flex;
+    gap: 20px;
+}
+.props-pro .icons-props .ico-props{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   font-size: 20px;
+}
+.props-pro:hover .icons-props{
+    transition: 1s ease-in-out;
+    visibility: visible;
+}
+.icons-props .ico-props{
+    transition: 0.8s;
+    transform: rotateY(90deg);
+}
+.props-pro:hover .icons-props .ico-props{
+    transform: rotateY(180deg);
+}
+.props-pro .icons-props .ico-props:hover{
+    color: white;
+    background-color: black;
+}
+.props-con{
+    display: flex;
+    justify-content: space-between;
+}
+.props-con p{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ico1-props{
+    font-size: 20px;
+}
+.props-amt{
+    display: flex;
+    gap: 8px;
+    font-size: 17px;
+}
+.props-amt del{
+    color: rgb(186,186,186);
+}
+.props-sal{
+    width: 55px;
+    height: 25px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}

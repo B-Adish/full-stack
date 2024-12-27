@@ -1,0 +1,111 @@
+.ch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.pro1{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.img{
+    width: 100%;
+    height: 48vh;
+    display: inline-block;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+.star{
+    font-size: 17px;
+    color: yellow;
+    display: flex;
+    gap: 5px;
+}
+.con p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.pro1 .icons{
+    width: 53%;
+    height: 70px;
+    color: black;
+    position: absolute;
+    bottom: 18%;
+    left: 65px;
+    visibility: hidden;
+    display: flex;
+    gap: 10px;
+}
+.pro1 .icons .ico{
+   width: 100px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   font-size: 20px;
+}
+.pro1:hover .icons{
+    transition: 1s ease-in-out;
+    visibility: visible;
+}
+.icons .ico{
+    transition: 0.8s;
+    transform: rotateY(90deg);
+}
+.pro1:hover .icons .ico{
+    transform: rotateY(180deg);
+}
+.pro1 .icons .ico:hover{
+    color: white;
+    background-color: black;
+}
+.sale{
+    width: 55px;
+    height: 28px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 5%;
+    left: 5px;
+    display: none;
+}
+.sale1{
+    width: 55px;
+    height: 28px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 5%;
+    left: 5px;
+    display: block;
+}
+.amt{
+    display: flex;
+    gap: 8px;
+}
+.amt p{
+    font-size: 15px;
+}
+.amt del{
+    font-size: 17px;
+    color: rgb(186,186,186);
+}
